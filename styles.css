@@ -1,7 +1,7 @@
 /* Universal Settings */
 
 * {
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -28,11 +28,84 @@
 }
 
 #heroHeader {
-    
+    font-size: xx-large;
+    font-weight: 500;
+    margin: 20px 0px;
 }
 
-#playButton {
-    
+#playTag{
+    font-size: x-large;
+    font-weight: 600;
+    background-color: #facc15;
+    padding: 1rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 5px #facc15;
+}
+
+#playTag:hover {
+    cursor: pointer;
+    margin-top: 2px;
+    margin-bottom: 1px;
+    background-color: #fbbf24;
+    box-shadow: none;
+}
+
+#heroArticle {
+    margin: 2rem auto;
+    font-size: x-large;
+    line-height: 2;
+    font-weight: 500;
+    color: #737373;
 }
 
 /* hero section ends */
+
+/* Media Section */
+
+#mediaSection {
+    margin: 2rem auto;
+}
+
+#mediaSection > div {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+#mediaSection section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 4rem auto;
+}
+
+#mediaSection section figure img {
+    padding: 2rem;
+    box-shadow: 0px 0px 10px black;
+    height: 8rem;
+    width: 8rem;
+    border-radius: 1rem;
+}
+
+/* Footer Section */
+
+#footerSection {
+    padding: 2rem 0px;
+    margin-top: 10rem;
+    background-color: #171717;
+}
+
+#footerSection > div {
+    width: 80%;
+    margin: 0px auto;
+}
+
+#footerCompany {
+    color: white;
+    font-weight: 500;
+}
+
+#footerCompanyTag {
+    color: #e5e5e5;
+    font-weight: lighter;
+    font-size: small;
+}
