@@ -1,0 +1,38 @@
+/* Universal Settings */
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navTag {
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    background-color: #171717;
+    margin: 0;
+    padding: 1rem;
+}
+
+/* hero section */
+
+#hero {
+    width: 65%;
+    margin: 1rem auto;
+}
+
+#hero * {
+    display: flex;
+    justify-content: center;
+}
+
+#heroHeader {
+    
+}
+
+#playButton {
+    
+}
+
+/* hero section ends */
